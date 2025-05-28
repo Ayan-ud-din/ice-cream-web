@@ -1,0 +1,115 @@
+ *{
+    padding: 0;
+    margin: 0;
+    font-family: "Righteous";
+ }
+/* nav .container-fluid{
+   padding: 0% !important;
+   margin: 0% !important;
+   background-color: #00d3bf;
+} */
+.nav-link{
+   display: flex;
+   align-items: center;
+  background-color: #00d3bf;
+
+  font-weight: bolder;
+   font-size: larger;
+    font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  color: aliceblue;
+  font-style: normal;
+  
+}
+
+.nav-link:hover{
+   text-decoration: underline rgb(248, 255, 249);
+  
+
+}
+
+nav{
+ /* border-bottom: 4px solid rgb(255, 255, 255); */
+ 
+ background-color: #00d3bf !important;
+
+ position: fixed;
+ top: 0%;
+}
+
+nav .navbar{
+    position: fixed;
+ top: 0%;
+}
+.heading{
+   display: flex;
+   justify-content: start;
+   padding-left: 52px;
+   padding-top: 52px;
+   padding-bottom: 32px;
+   width: 100vw;
+   /* height: 20vh; */
+ 
+}
+ .heading:hover{
+   text-decoration: underline rgb(77, 219, 255);
+   
+ }
+.banner {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   
+
+}
+.banner img{
+      border-radius: 23px;
+}
+/* .cards{
+   display: flex;
+justify-content: center;
+align-items: center;
+   width: 100vw;
+   height: 10vh;
+   
+}
+.container{
+ 
+   height: 400px;
+   background-color: rgb(225, 225, 225);
+   width: 230px;
+   border-radius: 23px;
+} */
+.card{
+   border-radius: 23px;
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+.btn{
+   background-color: #00d3bf;
+   border: 0.1px solid black;
+}
+.card:hover{
+   background-color:#2f7871;
+   color: white;
+}
+.para{
+   margin-top: 200px;
+   padding: 40px;
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+   background-color: #00d3bf;
+   text-transform: capitalize;
+   color: beige;
+
+}
+
+.para p:hover{
+   color: black;
+   text-decoration: underline black;
+}
